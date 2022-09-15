@@ -1,5 +1,5 @@
 main{
-    width: 1150px;
+    max-width: 1140px;
     margin: auto;
 }
 .titolo{
@@ -11,4 +11,51 @@ main{
 p{
     text-align: center;
     margin-top: 45px;
+    margin-bottom: 40px;
+}
+section{
+    display: block;
+}
+.immagine{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.member{
+    background-color: #0f0e17;
+    color: white;
+    float: left;
+    margin-bottom: 30px;
+    margin-right:10px ;
+    width: calc(33.3%-10px);
+
+
+}
+.dati-membro{
+    float: left;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.nome{
+    font-family: 'Fredoka One', cursive;
+    font-size: 13px;
+    margin-bottom: 7px;
+    margin-top: 17px;
+}
+.ruolo{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.email{
+    text-decoration-line: none;
+    color: #6cc2eb;
+
+}
+.contenitore-members{
+    max-width: 1140px;
 }
