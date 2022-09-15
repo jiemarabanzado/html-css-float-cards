@@ -1,3 +1,4 @@
+/*contenitore principale*/
 main{
     max-width: 1140px;
     margin: auto;
@@ -26,6 +27,7 @@ section{
     display: block;
     clear: both;
 }
+/*blocco ciascun membro*/
 .member{
     background-color: #0f0e17;
     color: white;
@@ -53,8 +55,4 @@ section{
 .email{
     text-decoration-line: none;
     color: #6cc2eb;
-
-}
-.contenitore-members{
-    max-width: 1140px;
 }
